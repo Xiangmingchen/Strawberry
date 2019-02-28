@@ -49,7 +49,7 @@ class Cards extends Component {
         <Row>
           <Col xs="12" sm="6" md="4">
             <Card>
-              <CardImg top className="product_img" src={sampleImg} alt="Product Image"/>
+              <CardImg top className="product_list_img" src={sampleImg} alt="Product Image"/>
               <CardBody>
                 <CardTitle>
                  <Link to="/products/product_number">
@@ -65,7 +65,7 @@ class Cards extends Component {
           </Col>
           <Col xs="12" sm="6" md="4">
           <Card>
-            <CardImg top className="product_img" src={sampleImg2} alt="Product Image"/>
+            <CardImg top className="product_list_img" src={sampleImg2} alt="Product Image"/>
             <CardBody>
               <CardTitle>
                <Link to="/products/product_number">
@@ -81,7 +81,7 @@ class Cards extends Component {
           </Col>
           <Col xs="12" sm="6" md="4">
             <Card>
-              <CardImg top className="product_img" src={sampleImg3} alt="Product Image"/>
+              <CardImg top className="product_list_img" src={sampleImg3} alt="Product Image"/>
               <CardBody>
                 <CardTitle>
                  <Link to="/products/product_number">
@@ -97,7 +97,7 @@ class Cards extends Component {
           </Col>
           <Col xs="12" sm="6" md="4">
             <Card>
-              <CardImg top className="product_img" src={sampleImg4} alt="Product Image"/>
+              <CardImg top className="product_list_img" src={sampleImg4} alt="Product Image"/>
               <CardBody>
                 <CardTitle>
                  <Link to="/products/product_number">
