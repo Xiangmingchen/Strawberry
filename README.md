@@ -1,2 +1,2 @@
 # Strawberry
-A "photo-based yelp" ios app
+A price history web app
