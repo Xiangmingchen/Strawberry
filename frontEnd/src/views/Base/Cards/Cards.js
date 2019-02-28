@@ -52,7 +52,7 @@ class Cards extends Component {
               <CardImg top className="product_list_img" src={sampleImg} alt="Product Image"/>
               <CardBody>
                 <CardTitle>
-                 <Link to="/products/product_number">
+                 <Link to="/charts">
                   <b>{this.shortenProductName("Sample Product Name That Is Fetched From API")}</b>
                  </Link>
                 </CardTitle>
@@ -68,7 +68,7 @@ class Cards extends Component {
             <CardImg top className="product_list_img" src={sampleImg2} alt="Product Image"/>
             <CardBody>
               <CardTitle>
-               <Link to="/products/product_number">
+               <Link to="/charts">
                <b>{this.shortenProductName("If the product name is too long, it will be shortened")}</b>
                </Link>
               </CardTitle>
@@ -84,7 +84,7 @@ class Cards extends Component {
               <CardImg top className="product_list_img" src={sampleImg3} alt="Product Image"/>
               <CardBody>
                 <CardTitle>
-                 <Link to="/products/product_number">
+                 <Link to="/charts">
                  <b>{this.shortenProductName("What if the picture is vertically longer")}</b>
                  </Link>
                 </CardTitle>

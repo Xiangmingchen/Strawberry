@@ -43,8 +43,10 @@ class DefaultHeader extends Component {
 
     return (
       <React.Fragment>
-        <img className="ml-3 d-sm-none d-inline col-xs-2" height="25" width="25" src={sygnet} />
-        <img className="ml-3 d-none d-sm-inline" src={logo} width="89" height="25" alt='CoreUI Logo'/>
+        <Link to="/home">
+          <img className="ml-3 d-sm-none d-inline col-xs-2" height="25" width="25" src={sygnet} />
+          <img className="ml-3 d-none d-sm-inline" src={logo} width="89" height="25" alt='CoreUI Logo'/>
+        </Link>
         <Form className="col-sm-6 col-10">
           <InputGroup width="100%" className="input-prepend">
             <InputGroupAddon addonType="prepend">
