@@ -484,22 +484,6 @@ class Dashboard extends Component {
 
     return (
       <div className="animated fadeIn">
-      <Row>
-        <Col xs="12" sm="12" lg="12">
-          <InputGroup className="input-prepend">
-            <InputGroupAddon addonType="prepend">
-              <InputGroupText>
-                <i className="fa fa-search"></i>
-              </InputGroupText>
-            </InputGroupAddon>
-            <Input size="16" type="text" placeholder="What are you looking for?" />
-            <InputGroupAddon addonType="append">
-              <Button color="info">Search</Button>
-            </InputGroupAddon>
-          </InputGroup>
-          <br />
-        </Col>
-      </Row>
         <Row>
           <Col xs="12" sm="6" lg="3">
             <Card className="text-white bg-info">

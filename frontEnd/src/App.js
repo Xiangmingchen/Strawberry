@@ -28,6 +28,11 @@ const Page404 = Loadable({
   loading
 });
 
+const Homepage = Loadable({
+  loader: () => import('./views/Theme/Colors'),
+  loading
+});
+
 const Page500 = Loadable({
   loader: () => import('./views/Pages/Page500'),
   loading
@@ -43,6 +48,7 @@ class App extends Component {
             <Route exact path="/register" name="Register Page" component={Register} />
             <Route exact path="/404" name="Page 404" component={Page404} />
             <Route exact path="/500" name="Page 500" component={Page500} />
+            <Route exact path="/home" name="Home" component={Homepage} />
             <Route path="/" name="Home" component={DefaultLayout} />
           </Switch>
       </HashRouter>
